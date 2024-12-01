@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e3a8a; /* Fondo azul */
+    color: white; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+form {
+    margin: 20px 0;
+}
+
+/* Estilos para los inputs y botones */
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    background-color: #22c55e; /* Verde */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #16a34a; /* Verde más oscuro al pasar el mouse */
+}
+
+/* Tabla de canciones */
+table {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white; /* Fondo blanco */
+    color: black; /* Texto negro */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: #2563eb; /* Azul más oscuro */
+    color: white;
+}
+
+td {
+    background-color: #f3f4f6; /* Gris claro */
+}
+
+/* Botones de acción (Editar y Eliminar) */
+.edit-btn {
+    background-color: #3b82f6; /* Azul */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-btn:hover {
+    background-color: #2563eb; /* Azul más oscuro */
+}
+
+.delete-btn {
+    background-color: #ef4444; /* Rojo */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #b91c1c; /* Rojo más oscuro */
+}

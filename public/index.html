@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Repertorio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <h1>🎵 Mi Repertorio 🎵</h1>
+
+    <!-- Formulario para agregar canciones -->
+    <form id="songForm">
+        <input type="text" id="song" placeholder="Canción" required>
+        <input type="text" id="artist" placeholder="Artista" required>
+        <input type="text" id="tone" placeholder="Tono" required>
+        <button type="submit">Agregar</button>
+    </form>
+
+    <!-- Tabla para mostrar el repertorio -->
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Canción</th>
+                <th>Artista</th>
+                <th>Tono</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="songTableBody">
+            <!-- Aquí se insertarán las filas dinámicamente -->
+        </tbody>
+    </table>
+
+    <script src="app.js"></script> <!-- Archivo JavaScript -->
+</body>
+</html>
+
